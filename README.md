@@ -24,10 +24,11 @@ This project visualizes traffic congestion in "Coimbatore" using **React**, **De
 - MapTiler
 - PapaParse
 
-### DATASET USED
+### DATASET - coimbatore_traffic_data.csv
+ This dataset contains the information about traffic congestion in Coimbatore.
 
- coimbatore_traffic_data.csv
-  
+## IMPLEMENTATION
+
 step 1:Setup the project -> To import the packages of react,deckgl,hexagon layer,papa parse,maptiler.
       [npm install react react-dom deck.gl react-map-gl mapbox-gl papaparse @deck.gl/aggregation-layers]
       
@@ -50,5 +51,12 @@ step 9:To sets up the HexagonLayer to visualize traffic congestion in hexagonal 
 step 10:Renders the map using the MapTiler API with the map style set to streets-v2
 
 step 11:Renders the tooltip for hover over hexagons to see details about the traffic congestion in that area.
+
+## OUTPUT
+    ![image](https://github.com/user-attachments/assets/c066b4aa-e918-4e2e-901d-50f8a7b4cb41)
+
+
+
+
 
 

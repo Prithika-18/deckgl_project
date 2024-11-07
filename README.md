@@ -1,7 +1,8 @@
-                                             Traffic congestion visualization 
 
+**Traffic Congestion Visualization**
+ 
 step 1:Setup the project -> To import the packages of react,deckgl,hexagon layer,papa parse,maptiler.
-      command:[npm install react react-dom deck.gl react-map-gl mapbox-gl papaparse @deck.gl/aggregation-layers]
+      [npm install react react-dom deck.gl react-map-gl mapbox-gl papaparse @deck.gl/aggregation-layers]
       
 step 2:Retrieves the API key for MapTiler from the environment variables[.env.local]file in the project root for this to work.
 

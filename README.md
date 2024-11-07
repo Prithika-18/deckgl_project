@@ -1,6 +1,33 @@
 
-**Traffic Congestion Visualization**
- 
+## TRAFFIC CONGESTION VISUALIZATION
+### DESCRIPTION
+This project visualizes traffic congestion in "Coimbatore" using **React**, **Deck.gl**, and **MapTiler**. The goal is to provide an easy-to-understand map that shows traffic conditions in different parts of the city, helping users see where there is heavy traffic and where the roads are clear. The traffic data is displayed on a **hexagonal grid**, where each hexagon represents an area, and its color shows the congestion level.The traffic data is loaded from a **CSV file**, which includes information like the location (latitude and longitude) and congestion level. **PapaParse** is used to read and process this data. The map itself is rendered using **react-map-gl** and styled with **MapTiler** to display the city’s streets clearly.when users can hover over the hexagons to see details like the average latitude, longitude, and congestion level for that area. The map is interactive, so users can zoom in, zoom out, and pan across the city.This project helps users understand traffic conditions at a glance, making it easier to plan their routes in Coimbatore.
+
+## FEATURES
+
+- Hexagonal Grid
+  
+- Color-Coded Congestion
+
+- Interactive Map to Users can zoom, pan, and hover over hexagons to view detailed congestion data .
+  
+- Loading State is displayed while traffic data is being fetched and processed.
+
+## GETTING STARTED
+
+### PREREQUISITES
+
+- React js
+- NPM
+- Deck.gl
+- react-map-gl(React wrapper for Mapbox)
+- MapTiler
+- PapaParse
+
+### DATASET USED
+
+ coimbatore_traffic_data.csv
+  
 step 1:Setup the project -> To import the packages of react,deckgl,hexagon layer,papa parse,maptiler.
       [npm install react react-dom deck.gl react-map-gl mapbox-gl papaparse @deck.gl/aggregation-layers]
       

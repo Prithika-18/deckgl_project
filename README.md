@@ -15,7 +15,7 @@ This project visualizes traffic congestion in "Coimbatore" using **React**, **De
 
 ## GETTING STARTED
 
-### PREREQUISITES
+### LIBRARIES AND TOOLS TO BE USED
 
 - React js
 - NPM
@@ -25,7 +25,8 @@ This project visualizes traffic congestion in "Coimbatore" using **React**, **De
 - PapaParse
 
 ### DATASET - coimbatore_traffic_data.csv
- This dataset contains the information about traffic congestion in Coimbatore.
+Data is extract from the external source Kaggle and then converted to CSV format.
+ 
 
 ## IMPLEMENTATION
 

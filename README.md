@@ -52,8 +52,13 @@ step 10:Renders the map using the MapTiler API with the map style set to streets
 
 step 11:Renders the tooltip for hover over hexagons to see details about the traffic congestion in that area.
 
-## OUTPUT
-    ![image](https://github.com/user-attachments/assets/c066b4aa-e918-4e2e-901d-50f8a7b4cb41)
+## OUTPUT 
+
+<img width="945" alt="image" src="https://github.com/user-attachments/assets/11c31d66-a8fe-4d0b-a0d4-78f007f41abe">
+
+<img width="937" alt="image" src="https://github.com/user-attachments/assets/2c91fdd9-7e8a-4580-b548-5917db82b2e1">
+
+
 
 
 

@@ -13,7 +13,7 @@ const TrafficMap = () => {
   const [tooltip, setTooltip] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // function to load and process the data
+ 
   useEffect(() => {
     Papa.parse('/coimbatore_traffic_data.csv', {
       download: true,
@@ -40,7 +40,7 @@ const TrafficMap = () => {
     });
   }, []);
 
-  //Prepare data for the hexagon layer
+ 
   const hexagonData = trafficData.map(point => ({
     position: [point.lng, point.lat],
     congestion: point.congestion,
@@ -57,7 +57,6 @@ const TrafficMap = () => {
     }
   };
 
-  // Hexagon layer setup
   const layer = new HexagonLayer({
     id: 'hexagon-layer',
     data: hexagonData,
